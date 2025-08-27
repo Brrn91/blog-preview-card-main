@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  --font: 'Figtree', sans-serif;
+
+  --cor-destaque: hsl(47, 88%, 63%);
+
+  --cor1: hsl(0, 0%, 100%);
+  --cor2: hsl(0, 0%, 42%);
+  --cor3: hsl(0, 0%, 7%);
+}
+
+* {
+  margin: auto;
+}
+
+body {
+  margin: 100px;
+  font-family: var(--font);
+  background-color: var(--cor-destaque);
+}
+
+main {
+  background-color: var(--cor1);
+  width: 400px;
+  height: 560px;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 8px 10px black;
+}
+
+img.up {
+  width: 360px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 34px;
+}
+
+h1 {
+  padding: 20px 0px 0px 20px;
+  font-size: 1.8em;
+  font-weight: 800;
+}
+
+p {
+  padding: 20px 20px 0px 20px;
+  font-weight: 500;
+}
+
+p.destaque {
+  background-color: var(--cor-destaque);
+  font-weight: 800;
+  width: 65px;
+  padding: 5px 10px;
+  margin: 5px 20px;
+  border-radius: 5px;
+}
+
+p.descricao {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container {
+  margin-left: 0px;
+  display: flex;
+  width: 155px;
+  padding: 20px 20px 0px 20px;
+}
+
+.container img {
+  max-width: 35px;
+  height: auto;
+}
+
+.container p {
+  font-weight: 700;
+  margin: 0;
+  padding: 15px 0px 15px 15px;
+}
+
+.attribution {
+  padding-top: 20px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
