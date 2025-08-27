@@ -9,7 +9,7 @@ Projeto desenvolvido como desafio da plataforma **Frontend Mentor**, utilizando 
 
 ![Screenshot do Projeto](preview.jpg)
 
-👉 [Acesse o projeto online](https://brrn91.github.io/blog-preview-card/)
+👉 [Acesse o projeto online](https://brrn91.github.io/blog-preview-card-main/)
 
 ---
 
